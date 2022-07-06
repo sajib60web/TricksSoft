@@ -3,4 +3,5 @@ from django.shortcuts import render
 
 # Create your views here.
 def about_us(request):
-    return HttpResponse("Welcome to About Us")
+    return render(request, 'about_us.html', {})
+    

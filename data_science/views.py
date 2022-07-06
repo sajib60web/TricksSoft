@@ -3,4 +3,5 @@ from django.shortcuts import render
 
 # Create your views here.
 def data_science(request):
-    return HttpResponse("Welcome to Data Science")
+    return render(request, 'data_science.html', {})
+    
